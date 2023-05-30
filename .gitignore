@@ -1,0 +1,32 @@
+# Arquivos de compilação
+*.o
+*.class
+*.log
+
+# Arquivos temporários
+*~
+.tmp/
+
+# Arquivos de configuração do ambiente local
+.env
+config/*.config
+
+# Credenciais
+credentials.json
+secrets.ini
+
+# Cache files and logs
+.cache/
+logs/
+
+# Output and build files
+dist/
+*/build/
+**/Migrations/
+output/
+[Bb]in/
+[Oo]bj/
+
+# Specific IDE / Editor
+.idea/
+.vscode/
